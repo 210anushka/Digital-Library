@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.digilib.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_mybooks"
+        android:name="com.example.digilib.home.mybooks"
+        android:label="MY BOOKS"
+        tools:layout="@layout/mybooks_fragment" />
+    <fragment
+        android:id="@+id/nav_requestbooks"
+        android:name="com.example.digilib.home.requestbooks"
+        android:label="REQUEST BOOKS"
+        tools:layout="@layout/requestbooks_fragment" />
+    <fragment
+        android:id="@+id/nav_bookavailability"
+        android:name="com.example.digilib.home.bookavailability"
+        android:label="BOOK AVAILABILITY"
+        tools:layout="@layout/bookavailability_fragment" />
+    <fragment
+        android:id="@+id/nav_ecard"
+        android:name="com.example.digilib.home.ecard"
+        android:label="E-CARD"
+        tools:layout="@layout/ecard_fragment" />
+    <fragment
+        android:id="@+id/nav_bookstore"
+        android:name="com.example.digilib.home.bookstore"
+        android:label="BOOK STORE"
+        tools:layout="@layout/bookstore_fragment" />
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.digilib.home.account"
+        android:label="ACCOUNT"
+        tools:layout="@layout/account_fragment" />
+</navigation>

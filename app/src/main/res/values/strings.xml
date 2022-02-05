@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DIGILIB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FOR MEMBERS</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_mybooks">MY BOOKS</string>
+    <string name="menu_requestbooks">REQUEST BOOKS</string>
+    <string name="menu_bookavailability">BOOK AVAILABILITY</string>
+    <string name="menu_ecard">E-CARD</string>
+    <string name="menu_bookstore">BOOK STORE</string>
+    <string name="menu_account">ACCOUNT</string>
+</resources>

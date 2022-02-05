@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "506359656648",
+    "project_id": "digilib-bcc04",
+    "storage_bucket": "digilib-bcc04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506359656648:android:323c18435e800432cbf5fd",
+        "android_client_info": {
+          "package_name": "com.example.digilib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506359656648-etl556qimlvqe4l1upokr80onmu7dd8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx9rjmmKjS2JxgwUQ1jOexQFySvBy6aVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506359656648-etl556qimlvqe4l1upokr80onmu7dd8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
