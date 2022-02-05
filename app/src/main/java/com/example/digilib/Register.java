@@ -60,6 +60,7 @@ import java.util.Map;
 
         if(fAuth.getCurrentUser()!=null){
             startActivity(new Intent(getApplicationContext(),MainActivity.class));
+           // FirebaseAuth.getInstance().signOut();
             finish();
 
         }

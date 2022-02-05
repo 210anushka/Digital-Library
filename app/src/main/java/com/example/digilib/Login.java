@@ -42,6 +42,14 @@ public class Login extends AppCompatActivity {
         mcreatebutton = findViewById(R.id.regHere);
         fAuth = FirebaseAuth.getInstance();
 
+        mcreatebutton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(getApplicationContext(),Register.class));
+
+            }
+        });
+
         mLoginBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -79,13 +87,7 @@ public class Login extends AppCompatActivity {
 
             });
 
-        mcreatebutton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(getApplicationContext(),Register.class));
 
-            }
-        });
 
 
     }

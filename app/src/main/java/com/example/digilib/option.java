@@ -11,6 +11,7 @@ import android.widget.ImageView;
 public class option extends AppCompatActivity {
 
     ImageView useroption;
+    ImageView adminoption;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class option extends AppCompatActivity {
         setContentView(R.layout.activity_option);
         
         useroption=findViewById(R.id.member);
+        adminoption = findViewById(R.id.admin_image);
         useroption.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -29,5 +31,13 @@ public class option extends AppCompatActivity {
 
             }
         });
+        adminoption.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View v){
+                        startActivity(new Intent(getApplicationContext(),Login.class));
+
+                    }}
+        );
     }
 }
